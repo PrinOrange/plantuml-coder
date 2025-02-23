@@ -1,6 +1,6 @@
 {
   "name": "plantuml-coder",
-  "version": "0.0.0.alpha",
+  "version": "0.0.0.alpha.1",
   "description": "PlantUML encoder for both browsers and Node. This is a fork of package plantuml-encoder.",
   "main": "./dist/index.js",
   "type": "module",
