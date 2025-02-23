@@ -1,0 +1,7 @@
+node_modules
+
+__tests__
+src
+
+.vscode
+*.temp.*

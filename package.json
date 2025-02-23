@@ -1,0 +1,39 @@
+{
+  "name": "plantuml-coder",
+  "version": "0.0.0.alpha",
+  "description": "PlantUML encoder for both browsers and Node. This is a fork of package plantuml-encoder.",
+  "main": "./dist/index.js",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier . --write",
+    "test": "pnpm run build && tsx --test ./__tests__/*.test.ts",
+    "prepublish": "pnpm run format && pnpm run test && pnpm run build"
+  },
+  "keywords": [
+    "plantuml",
+    "uml",
+    "encoding",
+    "encoder"
+  ],
+  "bugs": {
+    "url": "https://github.com/PrinOrange/plantuml-coder/issues"
+  },
+  "homepage": "https://github.com/PrinOrange/plantuml-coder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrinOrange/plantuml-coder"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pako": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "@types/pako": "^2.0.3",
+    "prettier": "^3.5.2",
+    "tsx": "^4.19.3"
+  }
+}
