@@ -1,5 +1,5 @@
-import deflate from './deflate';
-import encode64 from './encode64';
+import deflate from './deflate.js';
+import encode64 from './encode64.js';
 
 export function encode(puml: string) {
   const deflated = deflate(puml);
